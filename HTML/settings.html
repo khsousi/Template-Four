@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/CSS/framework.css">
+  <link rel="stylesheet" href="/CSS/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  <title>Template 4 Settings</title>
+</head>
+<body>
+  
+  <div class="page d-flex">
+    <div class="sidebar bg-white p-20 p-relative">
+      <h3 class="p-relative txt-c mt-0">Khaled</h3>
+      <ul>
+        <li>
+          <a class=" d-flex align-center fs-14 c-black rad-6 p-10" href="index.html">
+            <i class="fa-solid fa-chart-bar fa-"></i>
+            <span>Dashboard</span>
+          </a>
+        </li>
+        <li>
+          <a class="active d-flex align-center fs-14 c-black rad-6 p-10" href="settings.html">
+            <i class="fa-solid fa-gear fa-"></i>
+            <span>Settings</span>
+          </a>
+        </li>
+        <li>
+          <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="profile.html">
+            <i class="fa-solid fa-user fa-"></i>
+            <span>Profile</span>
+          </a>
+        </li>
+        <li>
+          <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="projects.html">
+            <i class="fa-solid fa-diagram-project fa-"></i>
+            <span>Projects</span>
+          </a>
+        </li>
+        <li>
+          <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="courses.html">
+            <i class="fa-solid fa-graduation-cap fa-"></i>
+            <span>Courses</span>
+          </a>
+        </li>
+        <li>
+          <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="friends.html">
+            <i class="fa-solid fa-user-group fa-"></i>
+            <span>Friends</span>
+          </a>
+        </li>
+        <li>
+          <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="files.html">
+            <i class="fa-solid fa-file fa-"></i>
+            <span>Files</span>
+          </a>
+        </li>
+        <li>
+          <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="plans.html">
+            <i class="fa-solid fa-credit-card fa-"></i>
+            <span>Plans</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="over-hidden content w-full">
+      <div class="head bg-white p-15 between-flex">
+        <div class="search p-relative ">
+          <input class="p-10 rad-10" type="search" placeholder="Enter A Keyword ">
+        </div>
+        <div class="icons d-flex align-center">
+          <span class=" notification p-relative">
+            <i class="fa-solid fa-bell fa-lg"></i>
+          </span>
+          <img src="/IMG/profile.jpeg" alt="Profile Pic">
+        </div>
+      </div>
+      <h1 class="p-relative">Settings</h1>
+      <div class="settings-page">
+        <div class="setting-page wrapper m-20 d-grid gap-20">
+          <div class="site-control container">
+            <h2 class="mt-0 mb-5">Site Control</h2>
+            <p class="fs-14 c-gray mt-0">Control The Website If There Is Maintenance</p>
+            <div class="control between-flex">
+              <div class="mt-10">
+              <h3 class="m-0 mb-5 fs-14 -500">Website Control</h3>
+              <p class="m-0 fs-13 c-gray">Open/Close Website And Type The Reason</p>
+            </div>
+            <label>
+              <input class="toggle-checkbox" type="checkbox">
+              <div class="toggle-switch"></div>
+            </label>
+          </div>
+          <textarea placeholder="Close Message Content"></textarea>
+        </div>
+        <div class="general-info container">
+          <h2 class="mt-0 mb-5">General Info </h2>
+          <p class="c-gray fs-14 mt-0">General Information About Your Account</p>
+          <form>
+            <label class="d-block" for="first-name">First Name</label>
+            <input type="text" placeholder="First Name" name="first-name">
+            <label class="d-block" for="last-name">Last Name</label>
+            <input type="text" placeholder="Last Name" name="last-name">
+            <label class="d-block" for="email">Email</label>
+            <input class="email-input" type="email" placeholder="khaled@gmail" name="email" disabled >
+            <button>Change</button>  
+          </form>
+        </div>
+        <div class="security-info container">
+          <h2 class="mt-0 mb-5">Security Info</h2>
+          <p class="m-0 c-gray fs-14">Security Information About Your Account</p>
+          <div class="between-flex box">
+            <div class="info ">
+              <h3>Password</h3>
+              <p>Last Change On 25/10/2021</p>
+            </div>
+            <button class="btn-shape bg-blue c-white fs-15">Change</button>
+          </div>
+          <div class="between-flex box">
+            <div class="info ">
+              <h3>Two-Factor Authentication</h3>
+              <p>Enable/Disable The Feature</p>
+            </div>
+            <label>
+              <input class="toggle-checkbox" type="checkbox">
+              <div class="toggle-switch"></div>
+            </label>
+          </div>
+          <div class="between-flex box mb-15 mt-10">
+            <div class="info ">
+              <h3>Devices</h3>
+              <p>Check The Login Devices List</p>
+            </div>
+            <button class="btn-shape fs-15">Devices</button>
+          </div>
+        </div>
+        <div class="social-info container">
+          <h2 class="mt-0 mb-5">Social Info</h2>
+          <p class="c-gray fs-14 mt-0">Social Media Information</p>
+          <div class="social-box rad-6 d-flex align-center">
+            <i class="fa-brands fa-twitter c-gray"></i>
+            <input type="text" placeholder="Twitter Username">
+          </div>
+          <div class="social-box rad-6 d-flex align-center">
+            <i class="fa-brands fa-facebook c-gray center-flex"></i>
+            <input type="text" placeholder="Facebook Username">
+          </div>
+          <div class="social-box rad-6 d-flex align-center">
+            <i class="fa-brands fa-linkedin c-gray"></i>
+            <input type="text" placeholder="Linkedin Username">
+          </div>
+          <div class="social-box rad-6 d-flex align-center">
+            <i class="fa-brands fa-instagram c-gray"></i>
+            <input type="text" placeholder="Instagram Username">
+          </div>
+        </div>
+        <div class="widgets-control container">
+          <h2 class="mt-0 mb-5">Widgets Control</h2>
+          <p class="c-gray mt-0 fs-14">Show/Hide Widgets</p>
+          <div class="box d-block">
+            <div class="wedgets-info">
+              <input type="checkbox" id="one" checked>
+              <label for="one">Quick Draft</label>
+            </div>
+            <div class="wedgets-info d-flex align-center">
+              <input type="checkbox" id="two">
+              <label for="two">Yearly Targets</label>
+            </div>
+            <div class="wedgets-info">
+              <input type="checkbox" id="three"checked>
+              <label for="three">Tickets Statistics</label>
+            </div>
+            <div class="wedgets-info">
+              <input type="checkbox" id="four">
+              <label for="four">Latest News</label>
+            </div>
+            <div class="wedgets-info">
+              <input type="checkbox" id="five" checked>
+              <label for="five">Latest Tasks</label>
+            </div>
+            <div class="wedgets-info">
+              <input type="checkbox" id="six" checked>
+              <label for="six">Top Search Items</label>
+            </div>
+
+            
+          </div>
+        </div>
+        <div class="backup-maneger container">
+          <h2 class="mt-0 mb-5">Backup Maneger</h2>
+          <p class="mt-0 c-gray fs-14">Control Backup Time And Location</p>
+          <div class="backup-radio">
+            <div class="time">
+              <input type="radio" name="backup" id="one-rad">
+              <label for="one-rad">Daily</label>
+            </div>
+            <div class="time">
+              <input type="radio" name="backup" id="two-rad" checked>
+              <label for="two-rad">Weekly</label>
+            </div>
+            <div class="time">
+              <input type="radio" name="backup" id="three-rad">
+              <label for="three-rad">Monthly</label>
+            </div>ٍ
+            
+          </div>
+          <div class="backup-sec-section between-flex txt-c">
+              <input type="radio" name="backup-name" id="one-back" >
+              <div class="server">
+                <label class="d-block" for="one-back">
+                  <i class="fa-solid fa-server "></i>
+                  <span class="d-block mt-10">Megaman</span>
+                </label>
+              </div>
+              <input type="radio" name="backup-name" id="two-back" checked>
+              <div class="server">
+                <label class="d-block" for="two-back">
+                  <i class="fa-solid fa-server "></i>
+                  <span class="d-block mt-10">Zero</span>
+                </label>
+              </div>
+              <input type="radio" name="backup-name" id="three-back">
+              <div class="server rad-10">
+              <label class="d-block" for="three-back">
+                <i class="fa-solid fa-server "></i>
+                <span class="d-block mt-10">Sigma</span>
+              </label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  
+</body>
+</html>
