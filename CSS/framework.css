@@ -26,15 +26,18 @@
 .f-wrap {
   flex-wrap: wrap;
 }
+
 .gap-10 {
   gap: 10px;
 }
+
 .gap-20 {
   gap: 20px;
 }
 .gap-40 {
   gap: 40px;
 }
+
 .d-block {
   display: block;
 }
@@ -42,7 +45,11 @@
 .align-center {
   align-items: center;
 }
+
+
 /* /////////////////// */
+
+
 .p-0 {
   padding: 0px;
 }
